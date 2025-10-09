@@ -1,0 +1,36 @@
+{
+  "name": "esgi-bordeaux-discord-bot",
+  "version": "1.0.0",
+  "description": "Bot Discord multi-serveur développé par les étudiants ESGI Bordeaux pour le campus Éducative avec authentification MyGES obligatoire",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "myges",
+    "educative",
+    "bordeaux",
+    "esgi",
+    "multi-server",
+    "student-project"
+  ],
+  "author": "Étudiants ESGI Bordeaux",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "axios": "^1.7.7",
+    "sqlite3": "^5.1.7",
+    "bcrypt": "^5.1.1",
+    "node-cron": "^3.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
